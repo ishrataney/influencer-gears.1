@@ -76,3 +76,32 @@ nav {
     color: rgb(211, 164, 164);
     border-radius: 20px;
 }
+
+.section-title h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fa-star.filled {
+    color: #c94b03;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.collections {
+    display: grid;
+
+    gap: 20px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collection {
+    width: 356px;
+    padding: 25px;
+    background-color: rgb(228, 215, 206);
+
+}
