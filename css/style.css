@@ -32,3 +32,47 @@ nav {
     margin: 20px;
     padding: 15px 20px;
 }
+
+.banner {
+    height: calc(100vh -80px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-left h1 {
+    font-size: 40px;
+}
+
+.banner-left p {
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.banner-right {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.banner-right img {
+    width: 80%;
+}
+
+.primary-button {
+    outline: 0;
+    border: 0;
+    padding: 15px 15px;
+    background-color: crimson;
+    color: rgb(211, 164, 164);
+    border-radius: 20px;
+}
